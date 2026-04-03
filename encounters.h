@@ -1,9 +1,16 @@
 #include <iostream>
 
-//My encounters or levels are layed ouit like a linked list.
+//My encounters or levels are layed out like nodes a linked list. Each node represents a 
+//"level" that is only beaten when the enemy is dead
 
 
 struct Encounter
 {
-    int ene
-}
+    Enemy enemy;
+    Encounter *link;
+    ~Encounter()
+    {
+        delete enemy;
+    }
+    
+};

@@ -4,9 +4,14 @@
 class Enemy
 {
 private:
+    int health;
+    int attackPower;
+    std::string name;
 
 public:
 //Constructor
-Enemy (std::string name, int HP, int attack)
-: name(n), health(h), attack
+    Enemy (std::string name, int HP, int attack)
+    : name(n), health(h), attackPower(attack) {}
+
+
 }
