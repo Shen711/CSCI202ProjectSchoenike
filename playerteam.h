@@ -1,17 +1,17 @@
+#include "teammember.h"
 #include <iostream>
 #include <string>
 
 class PlayerTeam()
 {
     protected:
-    Member member1
-    Member member2
+    Teammember jedi;
+    Teammember troop;
 
 
     public:
+    PlayerTeam PlayerTeam(Teammember jedi)
+    {
 
-            PlayerTeam PlayerTeam()
-            {
-
-            }
+    }
 }

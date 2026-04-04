@@ -13,5 +13,22 @@ public:
     Enemy (std::string name, int HP, int attack)
     : name(n), health(h), attackPower(attack) {}
 
+    void getHealth()
+    {
+        return health;
+    }
+
+    void getName()
+    {
+        return name;
+    }
+
+    int attackOp()
+    {
+        
+    }
+
+
+
 
 }

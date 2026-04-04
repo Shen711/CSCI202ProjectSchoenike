@@ -1,7 +1,9 @@
+#ifndef TEAMMEMBER_H
+#define TEAMMEMBER_H
 #include <iostream>
 #include <string>
 
-class Jedi
+class Teammember
 {
     
     private:
@@ -9,7 +11,10 @@ class Jedi
     int attack;
     int defend;
     int special;
+    string name;
     
     public:
-    Jedi(std::)
+    Jedi(std::string name,  )
 }
+
+#endif
